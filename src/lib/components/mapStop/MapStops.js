@@ -10,12 +10,13 @@
  */
 
 import React from 'react';
+
 const e = React.createElement;
-export default React => {
-    const mapStops = () => {
-        return e('div', {
-            className: 'map-stops'
-        });
-    };
-    return mapStops;
+
+export default class MapStops extends React.Component {
+  render() {
+    return e('div', {
+      className: 'map-stops'
+    });
+  };
 };

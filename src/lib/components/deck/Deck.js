@@ -39,7 +39,7 @@ function getIconSize(size) {
     return Math.min(100, size) / 100 * 0.5 + 0.5;
 }
 
-class Deck extends React.Component {
+export default class Deck extends React.Component {
     constructor(props) {
         super(props);
 

@@ -16,7 +16,7 @@ import moment from 'moment';
 import * as R from 'ramda';
 const e = React.createElement;
 
-export class MarkerItem extends React.Component {
+export default class MarkerItem extends React.Component {
     _handleRemove() {
         this.props.removeMarkers({}, this.props.regionId, [this.props.locationFeature]).fork(
             () => {

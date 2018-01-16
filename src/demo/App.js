@@ -1,11 +1,39 @@
 import React from 'react';
-import Example from '../lib';
-import { SecondExample } from '../lib';
+import {
+  Deck,
+  DeckContainer,
+  Mapbox,
+  MapboxContainer,
+  MapLines,
+  MapMarkers,
+  MapStops,
+  MarkerItem,
+  MarkerList,
+  MarkerListContainer,
+  Sankey,
+  SankeyContainer,
+  SankeyFilterer,
+  SankeyLinkLegend,
+  SankeyNodeLegend
+} from '../lib';
 
 const App = () => (
   <div>
-    <Example />
-    <SecondExample />
+    <Deck/>
+    <DeckContainer/>
+    <Mapbox/>
+    <MapboxContainer/>
+    <MapLines/>
+    <MapMarkers/>
+    <MapStops/>
+    <MarkerItem/>
+    <MarkerList/>
+    <MarkerListContainer/>
+    <Sankey/>
+    <SankeyContainer/>
+    <SankeyFilterer/>
+    <SankeyLinkLegend/>
+    <SankeyNodeLegend/>
   </div>
 );
 
